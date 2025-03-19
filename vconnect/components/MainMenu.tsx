@@ -109,10 +109,10 @@ const MainMenu = () => {
                             bgColor='bg-orange-500'
                             hoverColor= 'hover:bg-orange-800'
                         />
-                    </DialogTrigger>
-                        <DialogContent className=" bg-gray-200 px-16 py-10 text-gray-900 rounded-3xl" >
+                </DialogTrigger>
+        <DialogContent className=" bg-gray-200 px-16 py-10 text-gray-900 rounded-3xl" >
       
-                    <DialogHeader>
+          <DialogHeader>
             <DialogTitle
             className='text-3xl font-black leading-relaxed text-center '
             >
@@ -138,7 +138,7 @@ const MainMenu = () => {
             </DialogDescription>
           </DialogHeader>
         </DialogContent>
-            np</Dialog>
+      </Dialog>
 
       <Dialog >
           <DialogTrigger>
